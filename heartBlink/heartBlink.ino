@@ -8,7 +8,7 @@ void setup() {
 
 void loop() {
   // Show a heart
-  static const uint8_t heart[8][12] = {
+  static uint8_t heart[8][12] = {
     {0,0,1,1,0,0,0,0,1,1,0,0},
     {0,1,1,1,1,0,0,1,1,1,1,0},
     {1,1,1,1,1,1,1,1,1,1,1,1},
